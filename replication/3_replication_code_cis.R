@@ -16,7 +16,7 @@ library(bife) # version ‘0.7.1’
 library(parallel) # version ‘4.1.0’
 
 ######## Read in dataframe ######
-df_earthquake <- read.csv(here("replication", "df_earthquake.csv"))
+df_earthquake <- read.csv(here("df_earthquake.csv"))
 
 ######## Set up #########
 # Create sampler

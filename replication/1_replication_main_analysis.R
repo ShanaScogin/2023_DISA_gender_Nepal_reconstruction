@@ -9,7 +9,7 @@ library(here) # version ‘1.0.1’
 library(dplyr) # version ‘1.0.9’
 
 ######## Set up the dataframe ######
-df_earthquake <- read.csv(here("replication", "df_earthquake.csv"))
+df_earthquake <- read.csv(here("df_earthquake.csv")) # here() for use with Rproj
 
 #############################################
 ### Visiting a govt official by oneself ###
